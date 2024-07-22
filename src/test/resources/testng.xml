@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTests">
+        <classes>
+            <class name="framework.Test.LoginPageTest"/>
+            <class name="framework.Test.AddToCardTest"/>
+            <!-- Agrega más clases de prueba aquí -->
+        </classes>
+    </test>
+</suite>
